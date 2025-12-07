@@ -12,7 +12,7 @@ pipeline {
                 echo 'Checking out code from GitHub...'
                 git branch: 'main',
                     credentialsId: 'github-pat',
-                    url: 'https://github.com/Ayeshaabbasi21/todo-jenkins.git'
+                    url: 'https://github.com/aiman-zohra3/todo.git'
             }
         }
         
